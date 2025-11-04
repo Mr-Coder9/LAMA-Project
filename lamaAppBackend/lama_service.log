@@ -1,0 +1,70 @@
+2025-07-05 15:51:34,715 WARNING  * Debugger is active!
+2025-07-05 15:51:34,715 INFO  * Debugger PIN: 113-826-943
+2025-07-05 16:04:59,264 INFO  * Detected change in '/home/apmosys/Downloads/lama_mysql_setup/lamaAppBackend/flask_backend.py', reloading
+2025-07-05 16:04:59,616 WARNING  * Debugger is active!
+2025-07-05 16:04:59,617 INFO  * Debugger PIN: 113-826-943
+2025-07-05 16:06:07,417 INFO  * Detected change in '/home/apmosys/Downloads/lama_mysql_setup/lamaAppBackend/flask_backend.py', reloading
+2025-07-05 16:06:36,878 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.8.0.34:5001
+2025-07-05 16:06:36,878 INFO [33mPress CTRL+C to quit[0m
+2025-07-05 16:06:36,879 INFO  * Restarting with stat
+2025-07-05 16:06:37,137 WARNING  * Debugger is active!
+2025-07-05 16:06:37,138 INFO  * Debugger PIN: 113-826-943
+2025-07-05 16:06:51,786 INFO 127.0.0.1 - - [05/Jul/2025 16:06:51] "[33mGET /api/log-dashboard?start=2025-07-05 HTTP/1.1[0m" 404 -
+2025-07-05 16:06:54,082 INFO 127.0.0.1 - - [05/Jul/2025 16:06:54] "GET /api/scheduler/logs?lines=100 HTTP/1.1" 200 -
+2025-07-05 16:06:54,191 INFO 127.0.0.1 - - [05/Jul/2025 16:06:54] "GET /api/scheduler/status HTTP/1.1" 200 -
+2025-07-05 16:07:02,617 INFO 127.0.0.1 - - [05/Jul/2025 16:07:02] "GET /api/config HTTP/1.1" 200 -
+2025-07-05 16:07:52,675 INFO 127.0.0.1 - - [05/Jul/2025 16:07:52] "GET /api/config HTTP/1.1" 200 -
+2025-07-05 16:07:57,416 INFO 127.0.0.1 - - [05/Jul/2025 16:07:57] "[33mGET /api/log-dashboard?start=2025-07-05 HTTP/1.1[0m" 404 -
+2025-07-05 16:08:05,487 INFO 127.0.0.1 - - [05/Jul/2025 16:08:05] "GET /api/scheduler/logs?lines=100 HTTP/1.1" 200 -
+2025-07-05 16:08:05,521 INFO 127.0.0.1 - - [05/Jul/2025 16:08:05] "GET /api/scheduler/status HTTP/1.1" 200 -
+2025-07-05 16:08:11,179 INFO 127.0.0.1 - - [05/Jul/2025 16:08:11] "GET /api/config HTTP/1.1" 200 -
+2025-07-05 16:09:34,537 INFO  * Detected change in '/home/apmosys/Downloads/lama_mysql_setup/lamaAppBackend/flask_backend.py', reloading
+2025-07-05 16:09:34,619 INFO  * Restarting with stat
+2025-07-05 16:09:35,003 WARNING  * Debugger is active!
+2025-07-05 16:09:35,004 INFO  * Debugger PIN: 113-826-943
+2025-07-05 16:09:44,316 INFO  * Detected change in '/home/apmosys/Downloads/lama_mysql_setup/lamaAppBackend/flask_backend.py', reloading
+2025-07-05 16:09:44,387 INFO  * Restarting with stat
+2025-07-05 16:09:44,681 WARNING  * Debugger is active!
+2025-07-05 16:09:44,682 INFO  * Debugger PIN: 113-826-943
+2025-07-05 16:09:49,322 INFO 127.0.0.1 - - [05/Jul/2025 16:09:49] "[33mGET /api/log-dashboard?start=2025-07-05 HTTP/1.1[0m" 404 -
+2025-07-05 16:09:56,256 INFO 127.0.0.1 - - [05/Jul/2025 16:09:56] "GET /api/scheduler/logs?lines=100 HTTP/1.1" 200 -
+2025-07-05 16:09:56,309 INFO 127.0.0.1 - - [05/Jul/2025 16:09:56] "GET /api/scheduler/status HTTP/1.1" 200 -
+2025-07-05 16:09:57,596 INFO 127.0.0.1 - - [05/Jul/2025 16:09:57] "GET /api/config HTTP/1.1" 200 -
+2025-07-05 16:10:20,757 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.8.0.34:5001
+2025-07-05 16:10:20,757 INFO [33mPress CTRL+C to quit[0m
+2025-07-05 16:10:20,758 INFO  * Restarting with stat
+2025-07-05 16:10:21,023 WARNING  * Debugger is active!
+2025-07-05 16:10:21,023 INFO  * Debugger PIN: 113-826-943
+2025-07-05 16:10:28,020 INFO 127.0.0.1 - - [05/Jul/2025 16:10:28] "GET /api/config HTTP/1.1" 200 -
+2025-07-05 16:11:03,227 INFO 127.0.0.1 - - [05/Jul/2025 16:11:03] "[33mGET /api/log-dashboard?start=2025-07-05 HTTP/1.1[0m" 404 -
+2025-07-05 16:11:07,396 INFO 127.0.0.1 - - [05/Jul/2025 16:11:07] "GET /api/scheduler/logs?lines=100 HTTP/1.1" 200 -
+2025-07-05 16:11:07,436 INFO 127.0.0.1 - - [05/Jul/2025 16:11:07] "GET /api/scheduler/status HTTP/1.1" 200 -
+2025-07-05 16:11:08,719 INFO 127.0.0.1 - - [05/Jul/2025 16:11:08] "GET /api/config HTTP/1.1" 200 -
+2025-07-05 16:12:43,590 INFO 127.0.0.1 - - [05/Jul/2025 16:12:43] "GET /api/config HTTP/1.1" 200 -
+2025-07-05 16:12:54,971 INFO 127.0.0.1 - - [05/Jul/2025 16:12:54] "OPTIONS /api/config HTTP/1.1" 200 -
+2025-07-05 16:12:54,980 INFO 127.0.0.1 - - [05/Jul/2025 16:12:54] "POST /api/config HTTP/1.1" 200 -
+2025-07-05 16:13:26,232 INFO  * Detected change in '/home/apmosys/Downloads/lama_mysql_setup/lamaAppBackend/flask_backend.py', reloading
+2025-07-05 16:13:26,311 INFO  * Restarting with stat
+2025-07-05 16:13:26,575 WARNING  * Debugger is active!
+2025-07-05 16:13:26,576 INFO  * Debugger PIN: 113-826-943
+2025-07-05 16:13:27,322 INFO  * Detected change in '/home/apmosys/Downloads/lama_mysql_setup/lamaAppBackend/flask_backend.py', reloading
+2025-07-05 16:13:27,377 INFO  * Restarting with stat
+2025-07-05 16:13:27,637 WARNING  * Debugger is active!
+2025-07-05 16:13:27,637 INFO  * Debugger PIN: 113-826-943
+2025-07-05 16:13:38,495 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6001
+ * Running on http://10.8.0.34:6001
+2025-07-05 16:13:38,495 INFO [33mPress CTRL+C to quit[0m
+2025-07-05 16:13:38,495 INFO  * Restarting with stat
+2025-07-05 16:13:38,756 WARNING  * Debugger is active!
+2025-07-05 16:13:38,757 INFO  * Debugger PIN: 113-826-943
+2025-07-05 16:17:26,057 INFO  * Detected change in '/home/apmosys/Downloads/lama_mysql_setup/lamaAppBackend/flask_backend.py', reloading
+2025-07-05 16:17:26,129 INFO  * Restarting with stat
+2025-07-05 16:17:43,186 INFO  * Restarting with stat

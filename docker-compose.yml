@@ -1,0 +1,45 @@
+# docker-compose.yml
+version: "3.9"
+
+services:
+  frontend:
+    container_name: react_frontendV2
+    build:                        # Use build to ensure image is created locally
+      context: ./LamaFrontend_React
+    image: lama_frontend:latest
+    ports:
+      - "6060:5000"
+    volumes:
+      - ./LamaFrontend_React:/app
+      - /app/node_modules
+      - ./lama_services/lama_volumes/dist:/app/lama_services/lama_volumes/dist
+    command: npm run dev
+
+  backend:
+    container_name: flask_backendV2
+    build:                        # Use build to ensure image is created locally
+      context: ./lamaAppBackend
+    image: lama_backend:latest
+    user: root
+    ports:
+      - "6001:6001"
+    volumes:
+      - ./docker-compose.yml:/app/docker-compose.yml
+      - ./lamaAppBackend:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./lama_services/lama_volumes/dist:/app/lama_services/lama_volumes/dist
+    environment:
+      - FLASK_APP=flask_backend.py
+      - FLASK_ENV=development
+      - DOCKERIZED=true
+    command: python flask_backend.py
+
+  scheduler:
+    container_name: lama_service
+    image: lama_service:latest
+    restart: unless-stopped
+    volumes:
+      - ./lama_services/lama_volumes/dist:/app:rwx
+      - ./lama_services/supervisor.conf:/etc/supervisor/conf.d/supervisor.conf
+    command: "/usr/bin/supervisord -c /etc/supervisor/conf.d/supervisor.conf"
+
