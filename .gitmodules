@@ -1,6 +1,0 @@
-[submodule "LamaFrontend_React"]
-	path = LamaFrontend_React
-	url = https://github.com/Mr-Coder9/LAMA-Project
-[submodule "lama_services"]
-	path = lama_services
-	url = https://github.com/Mr-Coder9/LAMA-Project
